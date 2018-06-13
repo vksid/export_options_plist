@@ -1,0 +1,25 @@
+{
+  "name": "exportoptionsplist",
+  "version": "1.0.1",
+  "description": "Command line tool to generate export options plist file for export archive action in xcodebuild",
+  "main": "index.js",
+  "bin": {
+    "expopt": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "exportOptions",
+    "xcode",
+    "xcodebuild",
+    "build",
+    "plist"
+  ],
+  "author": "Vikas Soni",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "plist": "^3.0.1"
+  }
+}
